@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(0, 60, 255);
+    height: 130px;
+    width: 100%;
+}
+.links{
+    display: flex;
+
+}
+.links-features{
+    background-color: #ccc;
+    height: 30px;
+    width: 90%;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 2%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+.links-features div:first-child{
+    background-color: white;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 2.7%;
+    
+    color: #ccc;
+    font-size: 20px;
+}
+.links-features div{
+    padding: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: grey;
+    text-align: center;
+}
+.links-features div p{
+    text-align: center;
+   
+}
+.links-features div:hover{
+    cursor: pointer;
+}
+.name{
+    color: white;
+    font-size: 20px;
+    padding-top: .5%;
+    padding-left: 2%;
+}
+.search input{
+    outline: 0;
+    border: .5px solid grey;
+    width: 550px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 35%;
+    padding-left: 2%;
+    box-shadow: 1px 2px 3px black;
+    position: relative;
+}
+.search p{
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 1%;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 26%;
+    z-index: 1;
+    color: rgb(165, 165, 189);
+}
+
+.search svg{
+    position: absolute;
+    left: 72%;
+    top: 12%;
+    fill: blue;
+    height:20px;
+}
