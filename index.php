@@ -31,6 +31,70 @@
         </div>
      
     </div>
+
+<main>
+
+<div class="synonym">
+    <div class="synonym-text">
+        <h1>
+            Synonym of the day
+        </h1>
+    </div>
+    <div class="synonym-box">
+        <p>
+            Do you know which one is a synonym for <span>
+                standstill?
+            </span>
+        </p>
+        <p>
+        <a href="" onclick = "fun();">GET THE ANSWER</a>
+
+        </p>
+    </div>
+    <div class="container">
+        <label for="newComment" name="newComment">Add your comment below-</label>
+        <textarea id="newComment"></textarea>
+        <button id="addComments">Add Comment</button>
+        <div id="allComments"></div>
+    </div>
+</div>
+ 
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script>
         let searchMe = document.querySelector(".inputSearch")
         let btn = document.querySelector(".btn")
@@ -54,7 +118,12 @@
             getEvent()
         })
 
-        
+            
+            function fun() {  
+  
+  
+               alert ("This link doesn't work. Philip's still working on it");  
+            }  
 
     </script>
 </body>
